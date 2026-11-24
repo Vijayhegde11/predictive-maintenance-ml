@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Model artifacts
+models/*
+!models/.gitkeep
+
+# Processed data
+data/processed/*
+!data/processed/.gitkeep
+
+# OS files
+.DS_Store
